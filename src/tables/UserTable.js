@@ -6,7 +6,6 @@ const UserTable = (props) => (
       <tr>
         <th>Name</th>
         <th>DOB</th>
-        <th>Actions</th>
       </tr>
     </thead>
     <tbody>

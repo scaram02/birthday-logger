@@ -37,7 +37,7 @@ const EditUserForm = props => {
       /> 
 
       <button>Update User</button>
-      <button onClick={() => props.setEditing(false)}>Cancel</button>
+      <button className="delete" onClick={() => props.setEditing(false)}>Cancel</button>
 
         </form>
     )

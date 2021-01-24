@@ -5,9 +5,81 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(8, 8, 66);
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  background-image: url("./images/log.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: right;
+}
+
+.sub {
+  background-color: rgb(196, 193, 193, .6);
+  width: 50%;
+  border-radius: 5px;
+  /* float: right; */
+  top: 30%;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+
+h2{
+  margin-left: 10px;
+}
+
+label {
+  margin: auto 10px;
+}
+
+input {
+  height: 20px;
+  width: 170px;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+}
+
+.td, th {
+text-align: left;
+}
+
+button {
+  border: none;
+  height: 30px;
+  background-color: rgb(184, 127, 100);
+  margin-left: 10px;
+  padding: 5px 20px;
+  font-weight: 500;
+
+}
+
+button:hover {
+  background-color: rgb(161, 112, 89)
+}
+.delete {
+  color: maroon;
+
 }

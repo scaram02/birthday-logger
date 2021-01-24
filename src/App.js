@@ -43,9 +43,10 @@ const updateUser= (id, updatedUser) =>{
 
   return (
     <div className="container">
+      <div className="sub">
     <h1>Add a person</h1>
-    <div className="flex-row">
-      <div className="flex-large">
+    <div>
+      <div>
         {editing ? (
           <Fragment>
             <h2>Edit user</h2>
@@ -63,13 +64,15 @@ const updateUser= (id, updatedUser) =>{
           </Fragment>
         )}
       </div>
-      <div className="flex-large">
+      <div>
+        <br />
         <h2>View users</h2>
         <UserTable 
         users={users} 
         editRow={editRow} 
         deleteUser={deleteUser} />
       </div>
+    </div>
     </div>
   </div>
 
