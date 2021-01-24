@@ -21,14 +21,14 @@ const EditUserForm = props => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <label>Name</label>
+            <label>Name:</label>
             <input 
             type="text"
             name="name"
             value={user.name}
             onChange={handleInputChange}/>
 
-        <label>Birthday</label>
+        <label>Birthday:</label>
         <input
         type="text"
         name="dob"
@@ -36,7 +36,7 @@ const EditUserForm = props => {
         onChange={handleInputChange}
       /> 
 
-      <button>Update User</button>
+      <button>Update friend</button>
       <button className="delete" onClick={() => props.setEditing(false)}>Cancel</button>
 
         </form>

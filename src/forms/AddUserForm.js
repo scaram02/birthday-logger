@@ -20,21 +20,21 @@ const handleSubmit = e => {
 
     return (
     <form onSubmit={handleSubmit}>
-      <label>Name</label>
+      <label>Name:</label>
       <input 
       type="text" 
       name="name" 
       value={user.name}
       onChange={handleInputChange} />
 
-      <label>Birthday</label>
+      <label>Birthday:</label>
       <input 
       type="text" 
       name="dob" 
       value={user.dob}
       onChange={handleInputChange} />
 
-      <button>Add new user</button>
+      <button>Add new friend</button>
     </form>
     )
 }

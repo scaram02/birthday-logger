@@ -28,7 +28,7 @@ const UserTable = (props) => (
         ))
       ) : (
         <tr>
-          <td colSpan={3}>No users</td>
+          <td colSpan={3}>No friends to display :(</td>
         </tr>
       )}
     </tbody>

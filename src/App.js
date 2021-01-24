@@ -5,13 +5,14 @@ import EditUserForm from './forms/EditUserForm'
 
 const App = () => {
 
-  const usersData = [
-    { id: 1, name: 'Sanjay', dob: '20.05.1996' },
-    { id: 2, name: 'Robert', dob: '30.06.1948' },
-    { id: 3, name: 'Hope', dob: '07.12.2012' },
-  ]
+  // const usersData = [
+  //   { id: 1, name: 'Sanjay', dob: '20.05.1996' },
+  //   { id: 2, name: 'Robert', dob: '30.06.1948' },
+  //   { id: 3, name: 'Hope', dob: '07.12.2012' },
+  // ]
 
-  const [users, setUsers] = useState(usersData)
+  // const [users, setUsers] = useState(usersData)
+  const [users, setUsers] = useState([])
   const [editing, setEditing] = useState(false)
 
   const addUser = (user) => {
@@ -49,7 +50,7 @@ const updateUser= (id, updatedUser) =>{
       <div>
         {editing ? (
           <Fragment>
-            <h2>Edit user</h2>
+            <h2>Edit this friend</h2>
             <EditUserForm
               editing={editing}
               setEditing={setEditing}
@@ -59,14 +60,14 @@ const updateUser= (id, updatedUser) =>{
           </Fragment>
         ) : (
           <Fragment>
-            <h2>Add user</h2>
+            <h2>Add friend</h2>
             <AddUserForm addUser={addUser} />
           </Fragment>
         )}
       </div>
       <div>
         <br />
-        <h2>View users</h2>
+        <h2>View friends</h2>
         <UserTable 
         users={users} 
         editRow={editRow} 
