@@ -77,4 +77,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Background photo by Annie Spratt on Unsplash
 
-Hooks setup adopted and optimmized from [Tania Rascia](https://www.taniarascia.com/crud-app-in-react-with-hooks/)
+Hooks setup adopted and optimized from [Tania Rascia](https://www.taniarascia.com/crud-app-in-react-with-hooks/)
