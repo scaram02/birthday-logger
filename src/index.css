@@ -31,7 +31,7 @@ code {
 }
 
 .sub {
-  background-color: rgb(196, 193, 193, .6);
+  background-color: rgb(196, 193, 193, .65);
   width: 50%;
   border-radius: 5px;
   /* float: right; */
@@ -56,10 +56,13 @@ input {
   height: 20px;
   width: 170px;
   font-size: 14px;
+  border-radius: 5px;
+  border: none;
 }
 
 table {
   width: 100%;
+  padding-left: 10px;
 }
 
 .td, th {
@@ -68,8 +71,9 @@ text-align: left;
 
 button {
   border: none;
+  border-radius: 5px;
   height: 30px;
-  background-color: rgb(184, 127, 100);
+  background-color: rgb(201, 138, 109);
   margin-left: 10px;
   padding: 5px 20px;
   font-weight: 500;
@@ -77,7 +81,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(161, 112, 89)
+  background-color: rgb(177, 123, 98)
 }
 .delete {
   color: maroon;

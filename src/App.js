@@ -44,7 +44,7 @@ const updateUser= (id, updatedUser) =>{
   return (
     <div className="container">
       <div className="sub">
-    <h1>Add a person</h1>
+    <h1>Birthday Logger</h1>
     <div>
       <div>
         {editing ? (
